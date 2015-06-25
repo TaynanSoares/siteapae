@@ -7,7 +7,6 @@ body {
   /*color: #5a5a5a;*/
 }
 
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -118,6 +117,21 @@ body {
   height: 500px;
 }
 
+.btn-primary{
+
+  color: ;
+  background-color: #61b557;
+  border-color: #fbb112;
+}
+
+.btn-primary:hover{
+
+  color: ;
+  background-color: #fbb112;
+  border-color: #61b557;
+}
+
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -180,11 +194,25 @@ background-color: #FFF;
 }
 
 
+/*---------FOOTER CUSTOMIZE ------------*/
+
+footer .navbar-inverse{
+  background-color: transparent;
+  border-color: transparent;
+  padding-bottom: 250px;
+}
+
+footer>h4,h5{
+
+  font-weight: bold;
+  font-size: 10pt;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
-  /* Navbar positioning foo */
+  /* Navbar positioning footer */
   .navbar-wrapper {
     margin-top: 20px;
   }
